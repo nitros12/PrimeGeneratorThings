@@ -1,6 +1,6 @@
 import math
 
-class FuckThisFuckThat:
+class GeneratePrimesGenerator:
     def __init__(self, statement=None):
         self.statement = statement or "if {} % {}:"
 
@@ -30,7 +30,7 @@ class FuckThisFuckThat:
 
 
 if __name__ == "__main__":
-    this = FuckThisFuckThat()
+    this = GeneratePrimesGenerator()
     print("number = int(input('number:'))")
     print("try:")
     print(this.generate_range(range(1000)))
